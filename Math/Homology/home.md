@@ -2,4 +2,4 @@
 
 ## ホモロジー計算ドリル
 
-* [Math/Homology/drill1]
+* [[Math/Homology/drill1]]
