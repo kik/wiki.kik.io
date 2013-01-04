@@ -28,3 +28,12 @@ $R$準同型$\delta_k : C_k(K)\to C_{k-1}(K)$を生成元$\langle v_0\dots v_k\r
 [\langle v_0 \rangle\mapsto 0 \ \ (k = 0)]
 [\langle v_0\dots v_k\rangle\mapsto \sum_{i=0}^k(-1)^i\langle v_0\dots\check{v_i}\dots v_k\rangle \ \ (k > 0)]
 
+$\DeclareMathOperator{\Ima}{Im}
+\DeclareMathOperator{\Ker}{Ker}
+$
+
+### 定義(有限単体的複体のホモロジー)
+
+$K$の$k$次元ホモロジー$H_k(K)$を以下で定める
+[H_k(K)=\Ker{\delta_k}/\Ima{\delta_{k+1}}]
+
