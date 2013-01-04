@@ -21,3 +21,10 @@ $\mathbf{R}^d$の部分集合として単体的複体を定義することもで
 
 $K$が有限単体的複体のとき、その$k$次元鎖複体$C_k(K)$とは、$K$の$k$単体全体の生成する自由$R$加群のことをいう。
 [C_k(K) = \bigoplus_{\\#\sigma = k+1} R\sigma]
+
+### 定義(境界準同型)
+
+$R$準同型$\delta_k : C_k(K)\to C_{k-1}(K)$を生成元$\langle v_0\dots v_k\rangle$の像を以下で指定して定義し境界準同型とよぶ。
+[\langle v_0 \rangle\mapsto 0 \ \ (k = 0)]
+[\langle v_0\dots v_k\rangle\mapsto \sum_{i=0}^k(-1)^i\langle v_0\dots\check{v_i}\dots v_k\rangle \ \ (k > 0)]
+
