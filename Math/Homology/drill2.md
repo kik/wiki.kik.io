@@ -18,6 +18,8 @@ $L$を$K$の部分単体的複体とする。これらの対$(K, L)$の$k$次元
 
 対の境界準同型は$R$準同型$\delta_k : C_k(K, L) \to C_{k-1}(K, L)$は$\delta_k : C_k(K) \to C_{k-1}(K)$から誘導される準同型をいう。
 
+* 同じ記号を用いても混乱はしないと思われる
+
 $\DeclareMathOperator{\Ima}{Im}
 \DeclareMathOperator{\Ker}{Ker}
 $
@@ -25,5 +27,5 @@ $
 ### 定義(有限単体的複体の対のホモロジー)
 
 対のホモロジー$H_k(K, L)$は対の境界準同型$\delta_k$を用いて
-[H_k(K, L) = \Ker{\delta_k} / \Ima{\delta_{k+1}]
+[H_k(K, L) = \Ker{\delta_k} / \Ima{\delta_{k+1}}]
 で定義する。
