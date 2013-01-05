@@ -47,7 +47,7 @@ $K$の$k$次ホモロジー$H_k(K)$を以下で定める
 * $\Ker \delta_0 = C_0(K)$
 * $H_0(K) = R\langle v_0 \rangle$。$k\ne 0$のとき$H_k(K) = 0$
 
-### 例(n点のみからなる場合)
+### 例($n+1$点のみからなる場合)
 
 * $V = \\{ v_0, \dots, v_n \\}$
 * $K = \\{ \langle v_0 \rangle, \dots, \langle v_n \rangle \\}$
