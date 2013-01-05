@@ -63,3 +63,6 @@ $K$の$k$次ホモロジー$H_k(K)$を以下で定める
 
 * $V = \\{ v_0, v_1 \\}$
 * $K = \\{ \langle v_0 \rangle, \langle v_1 \rangle\\} \cup \\{\langle v_0v_1 \rangle\\}$
+* $C_0(K) = R\langle v_0 \rangle \oplus R\langle v_1 \rangle$
+* $C_1(K) = R\langle v_0v_1 \rangle$
+* $k\ne 0, 1$のとき$C_k(K) = 0$
