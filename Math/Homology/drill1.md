@@ -109,5 +109,5 @@ $K$の$k$次ホモロジー$H_k(K)$を以下で定める
 * $C_0(K) = R\langle v_0 \rangle \oplus R\langle v_1 \rangle \oplus R\langle v_2 \rangle$
 * $C_1(K) = R\langle v_0v_1 \rangle \oplus R\langle v_1v_2 \rangle \oplus R\langle v_0v_2 \rangle$
 * $\delta_1(\langle v_0v_1 \rangle) = \langle v_1 \rangle - \langle v_0 \rangle$
-* $\delta_2(\langle v_1v_2 \rangle) = \langle v_2 \rangle - \langle v_1 \rangle$
-* $\delta_3(\langle v_0v_2 \rangle) = \langle v_2 \rangle - \langle v_0 \rangle$
+* $\delta_1(\langle v_1v_2 \rangle) = \langle v_2 \rangle - \langle v_1 \rangle$
+* $\delta_1(\langle v_0v_2 \rangle) = \langle v_2 \rangle - \langle v_0 \rangle$
