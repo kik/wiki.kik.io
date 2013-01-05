@@ -33,3 +33,16 @@ $
 対のホモロジー$H_k(K, L)$は対の境界準同型$\delta_k$を用いて
 [H_k(K, L) = \Ker{\delta_k} / \Ima{\delta_{k+1}}]
 で定義する。
+
+### 定義(連結準同型)
+
+次の図式を可換にする$\Delta$を作りたいのだが、鎖複体ではできない。
+
+$$\begin{array}{ccc}
+C_k(K, L) & \xrightarrow{\Delta?} & C_{k-1}(L) \\\\
+\uparrow  & & \downarrow \\\\
+C_k(K) & \xrightarrow[\delta_k]{} & C_{k-1}(K)
+\end{array}$$
+
+
+
