@@ -105,4 +105,4 @@ $K$の$k$次ホモロジー$H_k(K)$を以下で定める
 ### 例(三角形の境界)
 
 * $V = \\{ v_0, v_1, v_2 \\}$
-* $K = \\{ \langle v_0 \rangle,  \langle v_1 \rangle,  \langle v_2 \rangle \\} \cup \\{  \langle v_0v_1 \rangle, \langle v_0v_2 \rangle, \langle v_1v_2 \rangle \\}$
+* $K = \\{ \langle v_0 \rangle,  \langle v_1 \rangle,  \langle v_2 \rangle \\} \cup \\{  \langle v_0v_1 \rangle, \langle v_1v_2 \rangle, \langle v_0v_2 \rangle \\}$
