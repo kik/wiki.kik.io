@@ -43,3 +43,6 @@ $K$の$k$次ホモロジー$H_k(K)$を以下で定める
 * $K = \\{ \langle v_0 \rangle \\}$
 * $C_0(K) = R\langle v_0 \rangle$。$k\ne 0$のとき$C_k(K) = 0$
 * $\delta_k = 0$
+* $\Ima \delta_1 = 0$
+* $\Ker \delta_0 = C_0(K)$
+* $H_0(K) = R\langle v_0 \rangle$。$k\ne 0$のとき$H_k(K) = 0$
