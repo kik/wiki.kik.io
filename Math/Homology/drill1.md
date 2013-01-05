@@ -116,7 +116,7 @@ $K$の$k$次ホモロジー$H_k(K)$を以下で定める
 * $\Ker \delta_1 = \\{ x_1 \langle v_0v_1 \rangle + x_2 \langle v_1v_2 \rangle +x_3 \langle v_0v_2 \rangle | x_1(\langle v_1 \rangle - \langle v_0 \rangle) + x_2(\langle v_2 \rangle - \langle v_1 \rangle) + x_3(\langle v_2 \rangle - \langle v_0 \rangle) = 0 \\}$
     * 条件の部分は
     * $-x1-x3 = 0$
-    * $x2-x1 = 0$
+    * $x1-x2 = 0$
     * $x2+x3 = 0$
     * なので
     * $x1 = x2 = -x3$
