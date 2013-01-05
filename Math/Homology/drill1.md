@@ -120,5 +120,5 @@ $K$の$k$次ホモロジー$H_k(K)$を以下で定める
     * $x2+x3 = 0$
     * なので
     * $x1 = x2 = -x3$
-* $\Ker \delta_1 = R\langle v_0v_1 \rangle$
+* $\Ker \delta_1 \cong R\langle v_0v_1 \rangle$
 * $\Ima \delta_2 = 0$
