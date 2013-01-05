@@ -85,4 +85,19 @@ $K$の$k$次ホモロジー$H_k(K)$を以下で定める
 * $\delta_1(\langle v_0v_1 \rangle) = \langle v_1 \rangle - \langle v_0 \rangle$
 *  ...
 * $\delta_1(\langle v_{n-1}v_n \rangle) = \langle v_n \rangle - \langle v_{n-1} \rangle$
-* 
+* $\Ker \delta_0 = C_0(K)$
+* $\Ima \delta_1 = R(\langle v_1 \rangle - \langle v_0 \rangle) + \dots + R(\langle v_n \rangle - \langle v_{n-1} \rangle)$
+* $\Ker \delta_1 = \\{ x_1 \langle v_0v_1 \rangle + \dots + x_n \langle v_{n-1}v_n \rangle | (x_1\langle v_1 \rangle - x_1\langle v_0 \rangle) + \dots + (x_n\langle v_n \rangle - x_n\langle v_{n-1} \rangle) = 0 \\}$
+    * 条件の部分は
+    * $-x1 = 0$
+    * $x2-x1 = 0$
+    * ...
+    * $x_n-x_{n-1} = 0$
+    * $x_n = 0$
+    * なので係数は全部$0$
+* $\Ker \delta_1 = 0$
+* $\Ima \delta_2 = 0$
+* $H_0(K) = (R\langle v_0 \rangle \oplus \dots \oplus R\langle v_n \rangle) / (R(\langle v_1 \rangle - \langle v_0 \rangle) + \dots + R(\langle v_n \rangle - \langle v_{n-1} \rangle)) = R\langle v_0 \rangle$
+* $H_1(K) = 0 / 0 = 0$
+* $k\ne 0, 1$のとき$H_k(K) = 0$
+* 1点の場合と同じ
