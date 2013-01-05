@@ -14,6 +14,10 @@ $L$を$K$の部分単体的複体とする。これらの対$(K, L)$の$k$次元
 [C_k(K, L) = C_k(K) / C_k(L)]
 で定める。
 
+* 包含写像を$i_k : C_k(L) \to C_k(K)$、射影を$j_k : C_k(K) \to C_k(K, L)$と書くことにする。
+* 以下は完全系列になる
+[0 \xrightarrow{0} C_k(L) \xrightarrow{i_k} C_k(K) \xrightarrow{j_k} C_k(K, L) \xrightarrow{0} 0]
+
 ### 定義(対の境界準同型)
 
 対の境界準同型は$R$準同型$\delta_k : C_k(K, L) \to C_{k-1}(K, L)$は$\delta_k : C_k(K) \to C_{k-1}(K)$から誘導される準同型をいう。
