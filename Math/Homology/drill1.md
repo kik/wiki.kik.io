@@ -101,3 +101,8 @@ $K$の$k$次ホモロジー$H_k(K)$を以下で定める
 * $H_1(K) = 0 / 0 = 0$
 * $k\ne 0, 1$のとき$H_k(K) = 0$
 * 1点の場合と同じ
+
+### 例(三角形の境界)
+
+* $V = \\{ v_0, v_1, v_2 \\}$
+* $K = \\{ \langle v_0 \rangle,  \langle v_1 \rangle,  \langle v_2 \rangle \\} \cup \\{  \langle v_0v_1 \rangle, \langle v_0v_2 \rangle, \langle v_1v_2 \rangle \\}$
