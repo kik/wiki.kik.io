@@ -82,4 +82,7 @@ $K$の$k$次ホモロジー$H_k(K)$を以下で定める
 * $K = \\{ \langle v_0 \rangle, \dots, \langle v_n \rangle \\} \cup \\{ \langle v_0v_1 \rangle, \dots, \langle v_{n-1}v_n \rangle\\}$
 * $C_0(K) = R\langle v_0 \rangle \oplus \dots \oplus R\langle v_n \rangle$
 * $C_1(K) = R\langle v_0v_1 \rangle \oplus \dots \oplus R\langle v_{n-1}v_n \rangle$
+* $\delta_1(\langle v_0v_1 \rangle) = \langle v_1 \rangle - \langle v_0 \rangle$
+*  ...
+* $\delta_1(\langle v_{n-1}v_n \rangle) = \langle v_n \rangle - \langle v_{n-1} \rangle$
 * 
