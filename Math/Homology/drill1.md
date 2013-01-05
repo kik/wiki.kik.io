@@ -76,3 +76,10 @@ $K$の$k$次ホモロジー$H_k(K)$を以下で定める
 * $k\ne 0, 1$のとき$H_k(K) = 0$
 * 1点の場合と同じ
 
+### 例($n$本の線分がまっすぐ繋がっている場合)
+
+* $V = \\{ v_0, \dots, v_n \\}$
+* $K = \\{ \langle v_0 \rangle, \dots, \langle v_n \rangle \\} \cup \\{ \langle v_0v_1 \rangle, \dots, \langle v_{n-1}v_n \rangle\\}$
+* $C_0(K) = R\langle v_0 \rangle \oplus \dots \oplus R\langle v_n \rangle$
+* $C_1(K) = R\langle v_0v_1 \rangle \oplus \dots \oplus R\langle v_{n-1}v_n \rangle$
+* 
