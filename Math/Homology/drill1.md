@@ -122,3 +122,6 @@ $K$の$k$次ホモロジー$H_k(K)$を以下で定める
     * $x1 = x2 = -x3$
 * $\Ker \delta_1 \cong R\langle v_0v_1 \rangle$
 * $\Ima \delta_2 = 0$
+* $H_0(K) = (R\langle v_0 \rangle \oplus R\langle v_1 \rangle \oplus R\langle v_2 \rangle) / (R(\langle v_1 \rangle - \langle v_0 \rangle) + R(\langle v_2 \rangle - \langle v_1 \rangle) + R(\langle v_2 \rangle - \langle v_0 \rangle)) = R\langle v_0 \rangle$
+* $H_1(K) \cong R\langle v_0v_1 \rangle / 0 = R\langle v_0v_1 \rangle$
+* $k\ne 0, 1$のとき$H_k(K) = 0$
