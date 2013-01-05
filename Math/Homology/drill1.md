@@ -59,3 +59,7 @@ $K$の$k$次ホモロジー$H_k(K)$を以下で定める
 * $H_0(K) = R\langle v_0 \rangle \oplus \dots \oplus R\langle v_n \rangle$
 * $k\ne 0$のとき$H_k(K) = 0$
 
+### 例(線分のみからなる場合)
+
+* $V = \\{ v_0, v_1 \\}$
+* $K = \\{ \langle v_0 \rangle, \langle v_1 \rangle\\} \cup \\{\langle v_0v_1 \rangle\\}$
