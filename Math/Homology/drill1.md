@@ -66,3 +66,13 @@ $K$の$k$次ホモロジー$H_k(K)$を以下で定める
 * $C_0(K) = R\langle v_0 \rangle \oplus R\langle v_1 \rangle$
 * $C_1(K) = R\langle v_0v_1 \rangle$
 * $k\ne 0, 1$のとき$C_k(K) = 0$
+* $\delta_1(\langle v_0v_1 \rangle) = \langle v_1 \rangle - \langle v_0 \rangle$
+* $\Ker \delta_0 = C_0(K)$
+* $\Ima \delta_1 = R(\langle v_1 \rangle - \langle v_0 \rangle)$
+* $\Ker \delta_1 = \\{ x \langle v_0v_1 \rangle | x\langle v_1 \rangle - x\langle v_0 \rangle = 0 \\} = \\{ x \langle v_0v_1 \rangle | x = 0 \\} = 0$
+* $\Ima \delta_2 = 0$
+* $H_0(K) = (R\langle v_0 \rangle \oplus R\langle v_1 \rangle) / R(\langle v_1 \rangle - \langle v_0 \rangle) = R\langle v_0 \rangle$
+* $H_1(K) = 0 / 0 = 0$
+* $k\ne 0, 1$のとき$H_k(K) = 0$
+* 1点の場合と同じ
+
