@@ -125,3 +125,9 @@ $K$の$k$次ホモロジー$H_k(K)$を以下で定める
 * $H_0(K) = (R\langle v_0 \rangle \oplus R\langle v_1 \rangle \oplus R\langle v_2 \rangle) / (R(\langle v_1 \rangle - \langle v_0 \rangle) + R(\langle v_2 \rangle - \langle v_1 \rangle) + R(\langle v_2 \rangle - \langle v_0 \rangle)) = R\langle v_0 \rangle$
 * $H_1(K) \cong R\langle v_0v_1 \rangle / 0 = R\langle v_0v_1 \rangle$
 * $k\ne 0, 1$のとき$H_k(K) = 0$
+
+### 例($n+3$角形の境界)
+
+* $V = \\{ v_0, \dots, v_{n+2} \\}$
+* $K = \\{ \langle v_0 \rangle,  \dots,  \langle v_{n+2} \rangle \\} \cup \\{  \langle v_0v_1 \rangle, \dots, \langle v_{n+1}v_{n+2} \rangle, \langle v_0v_{n+2} \rangle \\}$
+* 三角形の境界と同じ
