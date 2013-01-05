@@ -87,7 +87,7 @@ $K$の$k$次ホモロジー$H_k(K)$を以下で定める
 * $\delta_1(\langle v_{n-1}v_n \rangle) = \langle v_n \rangle - \langle v_{n-1} \rangle$
 * $\Ker \delta_0 = C_0(K)$
 * $\Ima \delta_1 = R(\langle v_1 \rangle - \langle v_0 \rangle) + \dots + R(\langle v_n \rangle - \langle v_{n-1} \rangle)$
-* $\Ker \delta_1 = \\{ x_1 \langle v_0v_1 \rangle + \dots + x_n \langle v_{n-1}v_n \rangle | (x_1\langle v_1 \rangle - x_1\langle v_0 \rangle) + \dots + (x_n\langle v_n \rangle - x_n\langle v_{n-1} \rangle) = 0 \\}$
+* $\Ker \delta_1 = \\{ x_1 \langle v_0v_1 \rangle + \dots + x_n \langle v_{n-1}v_n \rangle | x_1(\langle v_1 \rangle - \langle v_0 \rangle) + \dots + x_n(\langle v_n \rangle - \langle v_{n-1} \rangle) = 0 \\}$
     * 条件の部分は
     * $-x1 = 0$
     * $x2-x1 = 0$
@@ -113,7 +113,7 @@ $K$の$k$次ホモロジー$H_k(K)$を以下で定める
 * $\delta_1(\langle v_0v_2 \rangle) = \langle v_2 \rangle - \langle v_0 \rangle$
 * $\Ker \delta_0 = C_0(K)$
 * $\Ima \delta_1 = R(\langle v_1 \rangle - \langle v_0 \rangle) + R(\langle v_2 \rangle - \langle v_1 \rangle) + R(\langle v_2 \rangle - \langle v_0 \rangle)$
-* $\Ker \delta_1 = \\{ x_1 \langle v_0v_1 \rangle + x_2 \langle v_1v_2 \rangle +x_3 \langle v_0v_2 \rangle | (x_1\langle v_1 \rangle - x_1\langle v_0 \rangle) + (x_2\langle v_2 \rangle - x_2\langle v_1 \rangle) + (x_3\langle v_2 \rangle - x_3\langle v_0 \rangle) = 0 \\}$
+* $\Ker \delta_1 = \\{ x_1 \langle v_0v_1 \rangle + x_2 \langle v_1v_2 \rangle +x_3 \langle v_0v_2 \rangle | x_1(\langle v_1 \rangle - \langle v_0 \rangle) + x_2(\langle v_2 \rangle - \langle v_1 \rangle) + x_3(\langle v_2 \rangle - \langle v_0 \rangle) = 0 \\}$
     * 条件の部分は
     * $-x1-x3 = 0$
     * $x2-x1 = 0$
