@@ -2,7 +2,8 @@
 
 ## ホモロジー計算ドリル
 
-* [[Math/Homology/drill1]]
+* [[単体的複体のホモロジー|Math/Homology/drill1]]
+* [[単体的複体の相対ホモロジー|Math/Homology/drill2]]
 
 ### 参考文献
 
