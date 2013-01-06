@@ -113,7 +113,7 @@ H_0(L) = R\langle v_0 \rangle \xrightarrow{i_0} H_1(K) =  R\langle v_0 \rangle \
 * $C_0(K, L) = C_0(K) / C_0(L) = R\langle v_0 \rangle \oplus R\langle v_2 \rangle$
 * $C_1(K, L) = C_1(K) / C_1(L) = R\langle v_0v_1 \rangle \oplus R\langle v_1v_2 \rangle$
 * $(K, L)$について
-    * $\delta_1(\langle v_0v_1 \rangle) = \langle v_0 \rangle$
+    * $\delta_1(\langle v_0v_1 \rangle) = -\langle v_0 \rangle$
     * $\delta_1(\langle v_1v_2 \rangle) = \langle v_2 \rangle$
     * $\Ima \delta_1 = C_0(K, L)$
     * $\Ker \delta_1 = 0$
