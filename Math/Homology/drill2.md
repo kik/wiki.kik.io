@@ -125,7 +125,6 @@ H_0(L) = R\langle v_0 \rangle \xrightarrow{i_0} H_1(K) =  R\langle v_0 \rangle \
 * $i_0(\langle v_0 \rangle) = \langle v_0 \rangle$
 
 ### 例(三角形と境界の対)
-### 例(三角形)
 
 * $V = \\{ v_0, v_1, v_2 \\}$
 * $K = \\{ \langle v_0 \rangle,  \langle v_1 \rangle,  \langle v_2 \rangle \\} \cup \\{  \langle v_0v_1 \rangle, \langle v_1v_2 \rangle, \langle v_0v_2 \rangle \\} \cup \\{ \langle v_0v_1v_2 \rangle \\}$
