@@ -36,20 +36,21 @@ $
 
 ### 定義(連結準同型)
 
-次の図式を可換にする$\Delta$を作りたいのだが、鎖複体ではできない。
+次の図式を可換にする$\Delta_k$を作りたいのだが、鎖複体ではできない。
 
 $$\begin{array}{ccc}
-C_k(K, L) & \xrightarrow{\Delta?} & C_{k-1}(L) \\\\
+C_k(K, L) & \xrightarrow{\Delta_k?} & C_{k-1}(L) \\\\
 j_k\uparrow  & & \downarrow i_{k-1} \\\\
 C_k(K) & \xrightarrow[\delta_k]{} & C_{k-1}(K)
 \end{array}$$
 
-これをホモロジーにもっていくと$\Delta$が作れて、可換なだけでなく完全になる。
+これをホモロジーにもっていくと$\Delta_k$が作れて、可換なだけでなく完全になる。
 
 $$\begin{array}{ccc}
-H_k(K, L) & \xrightarrow{\Delta} & H_{k-1}(L) \\\\
+H_k(K, L) & \xrightarrow{\Delta_k} & H_{k-1}(L) \\\\
 j_k \uparrow  & & \downarrow i_{k-1}  \\\\
 H_k(K) & \xrightarrow[0]{} & H_{k-1}(K)
 \end{array}$$
 
+$\Delta_k$は$i_{k-1}^{-1}\circ\delta_k\circ j_k^{-1}$をホモロジーにたいして計算することできちんと定義できる。詳細は適当な本を見るとよい。
 
