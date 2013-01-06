@@ -8,3 +8,10 @@
 
 以下の$\mathbf{R}^{d+1}$の部分集合$\varDelta^d$を$d$次元標準単体と呼ぶ
 [\varDelta^d = \\{ (x_0, x_1, \dots, x_d) \in \mathbf{R}^{d+1} | x_0 + \dots x_d = 1, x_i \ge 0 \\}]
+
+### 定義(有限単体的複体の実現)
+
+$V = \\{ v_0, \dots, v_d \\}$を頂点とする有限単体的複体$K$の実現は、$d$次元標準単体の以下で定める部分集合$|K|$のことをいう
+[|K| = \bigcup_{\langle v_{i_0}\dots v_{i_\ell} \rangle \in K} \\{ (x_0, x_1, \dots, x_d) \in \varDelta^d | x_{i_0} + \dots + x_{i_\ell} = 1 \\}]
+
+
