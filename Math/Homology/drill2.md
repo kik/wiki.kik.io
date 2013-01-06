@@ -76,7 +76,7 @@ H_0(L) = R\langle v_0 \rangle \oplus R\langle v_1 \rangle \xrightarrow{i_0} H_1(
 
 * $\Delta_1(\langle v_0v_1 \rangle) = \langle v_1 \rangle - \langle v_0 \rangle$
 * $i_0(\langle v_0 \rangle) = \langle v_0 \rangle$
-* $i_0(\langle v_1 \rangle) = -\langle v_0 \rangle$
+* $i_0(\langle v_1 \rangle) = \langle v_0 \rangle$
 
 * たしかに完全系列になっている
 * $\Delta_1$は$\delta_1$が元になっているが、上を完全にするための唯一なものではない。
