@@ -5,3 +5,6 @@
 ## 単体的複体の実現
 
 ### 定義($d$次元標準単体)
+
+以下の$\mathbf{R}^{d+1}$の部分集合$\varDelta^d$を$d$次元標準単体と呼ぶ
+[\varDelta^d = \\{ (x_0, x_1, \dots, x_d) \in \mathbf{R}^{d+1} | x_0 + \dots x_d = 1, x_i \ge 0 \\}]
