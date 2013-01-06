@@ -44,7 +44,7 @@ j_k\uparrow  & & \downarrow i_{k-1} \\\\
 C_k(K) & \xrightarrow[\delta_k]{} & C_{k-1}(K)
 \end{array}$$
 
-これをホモロジーにもっていくと$\Delta_k$が作れて、可換なだけでなく完全になる。
+これをホモロジーにもっていくと$\Delta_k$が作れて、可換なだけでなく完全になる。この$\Delta_k$を連結準同型という。
 
 $$\begin{array}{ccc}
 H_k(K, L) & \xrightarrow{\Delta_k} & H_{k-1}(L) \\\\
@@ -54,3 +54,8 @@ H_k(K) & \xrightarrow[0]{} & H_{k-1}(K)
 
 $\Delta_k$は$i_{k-1}^{-1}\circ\delta_k\circ j_k^{-1}$をホモロジーにたいして計算することできちんと定義できる。詳細は適当な本を見るとよい。
 
+### 定義(対の長完全列)
+
+次の完全列を対$(K, L)$のホモロジー長完全列という。
+
+[\dots\xrightarrow{\Delta_{k+1}}H_k(L)\xrightarrow{i_k}H_k(K)\xrightarrow{j_k}H_k(K, L)\xrightarrow{\Delta_k}H_{k-1}(L)\xrightarrow{i_{k-1}}\dots]
