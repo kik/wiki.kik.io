@@ -143,3 +143,6 @@ H_0(L) = R\langle v_0 \rangle \xrightarrow{i_0} H_0(K) =  R\langle v_0 \rangle \
 [H_2(L) = 0 \xrightarrow{0} H_2(K) = 0 \xrightarrow{0} H_2(K, L) = R\langle v_0v1v2 \rangle \xrightarrow{\Delta_2} \\\\
 H_1(L) = R(\langle v_0v1 \rangle + \langle v_1v2 \rangle - \langle v_0v2 \rangle) \xrightarrow{0} H_1(K) = 0 \xrightarrow{0} H_1(K, L) = 0 \xrightarrow{0} \\\\
 H_0(L) = R\langle v_0 \rangle \xrightarrow{i_0} H_0(K) =  R\langle v_0 \rangle \xrightarrow{0} H_0(K, L) = 0]
+
+* $\Delta_1(\langle v_0v_1v2 \rangle) = \langle v_0v1 \rangle + \langle v_1v2 \rangle - \langle v_0v2 \rangle$
+* $i_0(\langle v_0 \rangle) = \langle v_0 \rangle$
