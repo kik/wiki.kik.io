@@ -99,5 +99,4 @@ H_0(L) = R\langle v_0 \rangle \oplus R\langle v_1 \rangle \xrightarrow{i_0} H_1(
 [H_1(L) = 0 \xrightarrow{0} H_1(K) = 0 \xrightarrow{0} H_1(K, L) = 0 \xrightarrow{0} \\\\
 H_0(L) = R\langle v_0 \rangle \xrightarrow{i_0} H_1(K) =  R\langle v_0 \rangle \xrightarrow{0} H_0(K, L) = 0]
 
-* $\Delta_1(\langle v_0v_1 \rangle) = \langle v_1 \rangle - \langle v_0 \rangle$
 * $i_0(\langle v_0 \rangle) = \langle v_0 \rangle$
