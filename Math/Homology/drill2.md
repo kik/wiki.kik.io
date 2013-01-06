@@ -80,3 +80,24 @@ H_0(L) = R\langle v_0 \rangle \oplus R\langle v_1 \rangle \xrightarrow{i_0} H_1(
 
 * たしかに完全系列になっている
 * $\Delta_1$は$\delta_1$が元になっているが、上を完全にするための唯一なものではない。
+
+### 例(線分と境界の一点の対)
+
+* $V=\\{ v_0, v_1 \\}$
+* $K=\\{\langle v_0 \rangle, \langle v_1 \rangle\\} \cup \\{\langle v_0v_1 \rangle \\}$
+* $L=\\{\langle v_0 \rangle\\}$
+* $H_0(L) = R\langle v_0 \rangle$, $H_1(L) = 0$
+* $H_0(K) = R\langle v_0 \rangle$, $H_1(K) = 0$
+* $C_0(K, L) = C_0(K) / C_0(L) = R\langle v_1 \rangle$
+* $C_1(K, L) = C_1(K) / C_1(L) = R\langle v_0v_1 \rangle$
+* $(K, L)$について
+    * $\delta_1(\langle v_0v_1 \rangle) = \langle v_1 \rangle$
+    * $\Ima \delta_1 = C_0(K, L)$
+    * $\Ker \delta_1 = 0$
+* $H_0(K, L) = 0$, $H_1(K, L) = 0$
+
+[H_1(L) = 0 \xrightarrow{0} H_1(K) = 0 \xrightarrow{0} H_1(K, L) = 0 \xrightarrow{0} \\\\
+H_0(L) = R\langle v_0 \rangle \xrightarrow{i_0} H_1(K) =  R\langle v_0 \rangle \xrightarrow{0} H_0(K, L) = 0]
+
+* $\Delta_1(\langle v_0v_1 \rangle) = \langle v_1 \rangle - \langle v_0 \rangle$
+* $i_0(\langle v_0 \rangle) = \langle v_0 \rangle$
