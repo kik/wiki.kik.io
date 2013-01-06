@@ -66,4 +66,4 @@ $\Delta_k$は$i_{k-1}^{-1}\circ\delta_k\circ j_k^{-1}$をホモロジーにた�
 * $K=\\{\langle v_0 \rangle, \langle v_1 \rangle\\} \cup \\{\langle v_0v_1 \rangle \\}$
 * $L=\\{\langle v_0 \rangle, \langle v_1 \rangle\\}$
 * $H_0(L) = R\langle v_0 \rangle \oplus R\langle v_1 \rangle$, $H_1(L) = 0$
-* $H_1(K) = R\langle v_0 \rangle$, $H_1(K) = 0$
+* $H_0(K) = R\langle v_0 \rangle$, $H_1(K) = 0$
