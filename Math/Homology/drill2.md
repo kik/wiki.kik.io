@@ -40,7 +40,7 @@ $
 
 $$\begin{array}{ccc}
 C_k(K, L) & \xrightarrow{\Delta?} & C_{k-1}(L) \\\\
-\uparrow  & & \downarrow \\\\
+j_k\uparrow  & & \downarrow i_{k-1} \\\\
 C_k(K) & \xrightarrow[\delta_k]{} & C_{k-1}(K)
 \end{array}$$
 
@@ -48,9 +48,8 @@ C_k(K) & \xrightarrow[\delta_k]{} & C_{k-1}(K)
 
 $$\begin{array}{ccc}
 H_k(K, L) & \xrightarrow{\Delta} & H_{k-1}(L) \\\\
-\uparrow  & & \downarrow \\\\
+j_k \uparrow  & & \downarrow i_{k-1}  \\\\
 H_k(K) & \xrightarrow[0]{} & H_{k-1}(K)
 \end{array}$$
-
 
 
