@@ -59,3 +59,11 @@ $\Delta_k$は$i_{k-1}^{-1}\circ\delta_k\circ j_k^{-1}$をホモロジーにた�
 次の完全列を対$(K, L)$のホモロジー長完全列という。
 
 [\dots\xrightarrow{\Delta_{k+1}}H_k(L)\xrightarrow{i_k}H_k(K)\xrightarrow{j_k}H_k(K, L)\xrightarrow{\Delta_k}H_{k-1}(L)\xrightarrow{i_{k-1}}\dots]
+
+### 例(線分と境界の対)
+
+* $V=\\{ v_0, v_1 \\}$
+* $K=\\{\langle v_0 \rangle, \langle v_1 \rangle\\} \cup \\{\langle v_0v_1 \rangle \\}$
+* $L=\\{\langle v_0 \rangle, \langle v_1 \rangle\\}$
+
+
