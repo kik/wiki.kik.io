@@ -39,3 +39,13 @@ $d$次元球面$S^d = \\{ (x_0, \dots, x_d) \in \mathbf{R}^d | x_0^2 + \dots + x
 
 * $V = \\{ v_0, \dots, v_d \\}$
 * $K = \\{ \langle v_0 \rangle, \dots, \langle v_d \rangle \\} \cup \dots \cup \\{ \langle v_1\dots v_d \rangle, \dots,  \langle v_0\dots v_{d-1} \rangle \\}$
+* ホモロジーを計算するには、$d+1$次元球体との相対ホモロジーを使って
+* $L = \\{ \langle v_0 \rangle, \dots, \langle v_d \rangle \\} \cup \dots \cup \\{ \langle v_0\dots v_d \rangle \\}$
+* $K$は$L$の部分単体的複体だから
+
+$$ H_{d+1}(K) = 0 \xrightarrow{0} H_{d+1}(L) = 0 \xrightarrow{0} H_{d+1}(L, K) = R \to \\\\
+H_{d}(K) \xrightarrow{0} H_{d}(L) = 0 \xrightarrow{0} H_{d}(L, K) = 0 \xrightarrow{0} \\\\
+\vdots \\\\
+H_{1}(K) \xrightarrow{0} H_{1}(L) = 0 \xrightarrow{0} H_{1}(L, K) = 0 \xrightarrow{0} \\\\
+H_{0}(K) \xrightarrow{} H_{0}(L) = R \xrightarrow{0} H_{d}(L, K) = 0
+$$
