@@ -47,7 +47,7 @@ $$ H_{d+1}(K) = 0 \xrightarrow{0} H_{d+1}(L) = 0 \xrightarrow{0} H_{d+1}(L, K) =
 H_{d}(K) \xrightarrow{0} H_{d}(L) = 0 \xrightarrow{0} H_{d}(L, K) = 0 \xrightarrow{0} \\\\
 \vdots \\\\
 H_{1}(K) \xrightarrow{0} H_{1}(L) = 0 \xrightarrow{0} H_{1}(L, K) = 0 \xrightarrow{0} \\\\
-H_{0}(K) \xrightarrow{\cong} H_{0}(L) = R \xrightarrow{0} H_{d}(L, K) = 0
+H_{0}(K) \xrightarrow{\cong} H_{0}(L) = R \xrightarrow{0} H_{0}(L, K) = 0
 $$
 
 * $d > 0$の場合は
