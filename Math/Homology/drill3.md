@@ -43,9 +43,16 @@ $d$次元球面$S^d = \\{ (x_0, \dots, x_d) \in \mathbf{R}^d | x_0^2 + \dots + x
 * $L = \\{ \langle v_0 \rangle, \dots, \langle v_d \rangle \\} \cup \dots \cup \\{ \langle v_0\dots v_d \rangle \\}$
 * $K$は$L$の部分単体的複体だから
 
-$$ H_{d+1}(K) = 0 \xrightarrow{0} H_{d+1}(L) = 0 \xrightarrow{0} H_{d+1}(L, K) = R \to \\\\
+$$ H_{d+1}(K) = 0 \xrightarrow{0} H_{d+1}(L) = 0 \xrightarrow{0} H_{d+1}(L, K) = R \xrightarrow{\cong} \\\\
 H_{d}(K) \xrightarrow{0} H_{d}(L) = 0 \xrightarrow{0} H_{d}(L, K) = 0 \xrightarrow{0} \\\\
 \vdots \\\\
 H_{1}(K) \xrightarrow{0} H_{1}(L) = 0 \xrightarrow{0} H_{1}(L, K) = 0 \xrightarrow{0} \\\\
-H_{0}(K) \xrightarrow{} H_{0}(L) = R \xrightarrow{0} H_{d}(L, K) = 0
+H_{0}(K) \xrightarrow{\cong} H_{0}(L) = R \xrightarrow{0} H_{d}(L, K) = 0
 $$
+
+* $d > 0$の場合は
+    * $H_{d}(K) = H_{0}(K) = R$
+    * $k \ne 0, d$では$H_k(K) = 0$
+* $d = 0$の場合は、２点からなる集合になり
+    * $H_{0}(K) = R \oplus R$
+    * $k \ne 0$では$H_k(K) = 0$
