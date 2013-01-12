@@ -11,6 +11,12 @@
 正整数$k$にたいして、連続関数$\sigma : \varDelta^k \to X$を$X$の特異$k$単体と呼ぶ。
 
 * 潰れていてもよい
+* $0\le j \le k$にたいして、$\varepsilon^j : \varDelta^{k-1} \to \varDelta^{k}$を以下で定める
+
+$$\varepsilon^0(x_1, \dots, x_k) = (0, x_1, \dots, x_k) \\\\
+\varepsilon^1(x_1, \dots, x_k) = (x_1, 0, x_2, \dots, x_k) \\\\
+\vdots \\\\
+\varepsilon^k(x_1, \dots, x_k) = (x_1, \dots, x_k, 0)$$
 
 ### 定義(特異鎖加群)
 
