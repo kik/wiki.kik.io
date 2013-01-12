@@ -8,10 +8,10 @@
 
 ### 定義(特異単体)
 
-正整数$k$にたいして、連続関数$\sigma : \varDelta^k \to X$を$X$の特異$k$単体と呼ぶ。
+正整数$k$にたいして、連続写像$\sigma : \varDelta^k \to X$を$X$の特異$k$単体と呼ぶ。
 
 * 潰れていてもよい
-* $0\le j \le k$にたいして、$\varepsilon^j : \varDelta^{k-1} \to \varDelta^{k}$を以下で定める
+* $k > 0$, $0\le j \le k$にたいして、$\varepsilon^j : \varDelta^{k-1} \to \varDelta^{k}$を以下で定める
 
 $$\varepsilon^0(x_1, \dots, x_k) = (0, x_1, \dots, x_k) \\\\
 \varepsilon^1(x_1, \dots, x_k) = (x_1, 0, x_2, \dots, x_k) \\\\
@@ -25,3 +25,11 @@ $$\varepsilon^0(x_1, \dots, x_k) = (0, x_1, \dots, x_k) \\\\
 $$ S_k(X) = \bigoplus_{\sigma : \text{特異}k\text{単体}} R\sigma$$
 
 で定める。$k < 0$のときは$S_k(X) = 0$とする
+
+### 定義(境界準同型)
+
+$R$準同型$\delta_k : S_k(X) \to S_{k-1}(X)$を生成元$\sigma$の像を以下で指定して定義し境界準同型とよぶ。
+
+$$ \sigma \mapsto \sum_{j=0}^k (-1)^j \sigma\circ\varepsilon^j $$
+
+ただし、$k \le 0$の場合は$\delta_k = 0$とする。
