@@ -111,7 +111,9 @@ $$ S_{k-1}(f)\delta_k(\sigma) = \sum_{j=0}^k (-1)^j S_{k-1}(f)(\sigma\circ\varep
 
 $$ S(g\circ f) = S(g)\circ S(f) $$
 
+この準同型が引き起こすホモロジー加群の準同型$H_k(S(f))$を$H_k(f)$と書く
+
 ### 例(同相の場合)
 
 * 同相写像$f : X \sim Y$がある場合
-* $R$準同型$S_k(f) : S_k(X) \to S_k(Y)$を生成元$\sigma \in S_k(X)$に対して$f\circ\sigma$で定める。
+* $H_k(f)$は$H_k(X)$から$H_k(Y)$への同型を与える
