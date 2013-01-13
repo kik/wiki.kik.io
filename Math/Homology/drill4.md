@@ -45,3 +45,15 @@ $R$加群の列$(T_k)_{k\in\mathbf{Z}}$と$R$準同型の列$(\delta_k : T_k \to
 $$\delta_{k-1}\circ\delta_k = 0$$
 $$T_k = 0\quad (k < 0)$$
 
+* 特異鎖加群の列と境界準同型は複体になる
+
+$\DeclareMathOperator{\Ima}{Im}
+\DeclareMathOperator{\Ker}{Ker}
+$
+
+### 定義(複体のホモロジー)
+
+複体$T = (T_k, \delta_k)$にたいして、$k$次ホモロジー加群$H_k(T)$を以下で定める。
+
+[H_k(T)=\Ker{\delta_k}/\Ima{\delta_{k+1}}]
+
