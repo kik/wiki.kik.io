@@ -87,7 +87,11 @@ U_k & \xrightarrow[\delta'_k]{} & U_{k-1}
 
 ### 定義(複体の準同型の引き起こす$k$次ホモロジー加群の$R$準同型)
 
-複体の準同型$f : T \to U$にたいして、$k$次ホモロジー加群の$R$準同型$H_k(f) : H_k(T) \to H_k(U)$を$c \in \Ker{\delta_k}$の代表する$H_k(T)$の元$c + \Ima{\delta_{k+1}}$に対して、$f_k(c) + \Ima{\delta'_{k+1}} \in H_k(U)$で定める
+複体の準同型$f : T \to U$にたいして、$k$次ホモロジー加群の$R$準同型$H_k(f) : H_k(T) \to H_k(U)$を$c \in \Ker{\delta_k}$の代表する$H_k(T)$の元$c + \Ima{\delta_{k+1}}$を$f_k(c) + \Ima{\delta'_{k+1}} \in H_k(U)$うつす写像で定める
+
+* $\delta'_k(f_k(c)) = f_k(\delta_k(c)) = 0$なので、$f_k(c) \in \Ker{\delta'_k}$
+* $c, c' \in \Ker{\delta_k}$が同じ$H_k(T)$の元を代表しているとする
+* $c - c' \in \Ima{\delta_{k+1}}$なので、$f_k(c) - f_k(c') = f_k(c-c') \in \Ima{\delta'_{k+1}}$によりwell-definedである
 
 ### 例(連続写像の引き起こす特異複体の準同型)
 
