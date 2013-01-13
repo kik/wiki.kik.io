@@ -92,7 +92,7 @@ U_k & \xrightarrow[\delta'_k]{} & U_{k-1}
 * 実際
 
 $$ \delta_k(S_k(f)\sigma) = \sum_{j=0}^k (-1)^j (S_k(f)\sigma)\circ\varepsilon^j = \sum_{j=0}^k (-1)^j f\circ\sigma\circ\varepsilon^j $$
-$$ S_k(f)\delta_k(\sigma) = \sum_{j=0}^k (-1)^j S_k(f)(\sigma\circ\varepsilon^j) = \sum_{j=0}^k (-1)^j f\circ\sigma\circ\varepsilon^j $$
+$$ S_{k-1}(f)\delta_k(\sigma) = \sum_{j=0}^k (-1)^j S_{k-1}(f)(\sigma\circ\varepsilon^j) = \sum_{j=0}^k (-1)^j f\circ\sigma\circ\varepsilon^j $$
 
 * さらに連続写像$g : Y \to Z$がある場合
 
