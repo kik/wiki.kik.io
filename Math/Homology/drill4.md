@@ -89,6 +89,10 @@ U_k & \xrightarrow[\delta'_k]{} & U_{k-1}
 
 * 連続写像$f : X \to Y$がある場合
 * $R$準同型$S_k(f) : S_k(X) \to S_k(Y)$を生成元$\sigma \in S_k(X)$に対して$f\circ\sigma$で定めると、特異複体の準同型$S(f) : S(X) \to S(Y)$が得られる
+* 実際
+
+$$ \delta_k(S_k(f)\sigma) = \sum_{j=0}^k (-1)^j (S_k(f)\sigma)\circ\varepsilon^j = \sum_{j=0}^k (-1)^j f\circ\sigma\circ\varepsilon^j $$
+$$ S_k(f)\delta_k(\sigma) = \sum_{j=0}^k (-1)^j S_k(f)(\sigma\circ\varepsilon^j) = \sum_{j=0}^k (-1)^j f\circ\sigma\circ\varepsilon^j $$
 
 ### 例(同相の場合)
 
