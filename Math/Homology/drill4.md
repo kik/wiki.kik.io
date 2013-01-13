@@ -75,6 +75,16 @@ $
 * $k > 0$で偶数のとき、$H_k(X) = 0 / 0 = 0$
 * $k > 0$で奇数のとき、$H_k(X) = Rp / Rp = 0$
 
+### 定義(複体の準同型)
+
+複体$T = (T_k, \delta_k)_{k\in\mathbf{Z}}, U = (U_k, \delta'_k)_{k\in\mathbf{Z}}$の加群の間の$R$準同型の列$(f_k : T_k \to U_k)_{k\in\mathbf{Z}}$が複体$T$から複体$U$への準同型であるとは以下が可換であることをいう
+
+$$\begin{array}{ccc}
+T_k & \xrightarrow{\delta_k} & T_{k-1} \\\\
+f_k\downarrow  & & \downarrow f_{k-1} \\\\
+U_k & \xrightarrow[\delta'_k]{} & U_{k-1}
+\end{array}$$
+
 ### 例(同相の場合)
 
 * 同相写像$f : X \sim Y$がある場合
