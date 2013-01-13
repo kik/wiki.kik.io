@@ -85,6 +85,11 @@ f_k\downarrow  & & \downarrow f_{k-1} \\\\
 U_k & \xrightarrow[\delta'_k]{} & U_{k-1}
 \end{array}$$
 
+### 例(連続写像の引き起こす特異複体の準同型)
+
+* 連続写像$f : X \to Y$がある場合
+* $R$準同型$S_k(f) : S_k(X) \to S_k(Y)$を生成元$\sigma \in S_k(X)$に対して$f\circ\sigma$で定めると、特異複体の準同型$S(f) : S(X) \to S(Y)$が得られる
+
 ### 例(同相の場合)
 
 * 同相写像$f : X \sim Y$がある場合
