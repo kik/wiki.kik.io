@@ -61,3 +61,16 @@ $
 
 [H_k(X) = H_k(S(X))]
 
+### 例(一点の場合)
+
+* $X = \\{ p \\}$
+* 特異$k$単体は$\varDelta^k$を$p$にうつす写像だけなので、それも$p$と書くことにする。
+* $S_k(X) = Rp$
+* $k > 0$のとき
+[\delta_k(p) = \sum_{j=0}^k (-1)^j p\circ\varepsilon^j = \sum_{j=0}^k (-1)^j p = p - p + p - \dots + (-1)^kp]
+    * $k$が偶数のとき、$\delta_k(p) = p$, $\Ker\delta_k = 0$, $\Ima\delta_k = Rp$
+    * $k$が奇数のとき、$\delta_k(p) = 0$, $\Ker\delta_k = Rp$, $\Ima\delta_k = 0$
+* $delta_0 = 0$
+* $H_0(X) = Rp / 0 = Rp$
+* $k > 0$で偶数のとき、$H_k(X) = 0 / 0 = 0$
+* $k > 0$で奇数のとき、$H_k(X) = Rp / Rp = 0$
