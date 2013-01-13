@@ -70,7 +70,7 @@ $
 [\delta_k(p) = \sum_{j=0}^k (-1)^j p\circ\varepsilon^j = \sum_{j=0}^k (-1)^j p = p - p + p - \dots + (-1)^kp]
     * $k$が偶数のとき、$\delta_k(p) = p$, $\Ker\delta_k = 0$, $\Ima\delta_k = Rp$
     * $k$が奇数のとき、$\delta_k(p) = 0$, $\Ker\delta_k = Rp$, $\Ima\delta_k = 0$
-* $delta_0 = 0$
+* $\delta_0 = 0$
 * $H_0(X) = Rp / 0 = Rp$
 * $k > 0$で偶数のとき、$H_k(X) = 0 / 0 = 0$
 * $k > 0$で奇数のとき、$H_k(X) = Rp / Rp = 0$
@@ -90,10 +90,15 @@ U_k & \xrightarrow[\delta'_k]{} & U_{k-1}
 複体の準同型$f : T \to U$にたいして、$k$次ホモロジー加群の$R$準同型$H_k(f) : H_k(T) \to H_k(U)$を$c \in \Ker{\delta_k}$の代表する$H_k(T)$の元$c + \Ima{\delta_{k+1}}$を$f_k(c) + \Ima{\delta'_{k+1}} \in H_k(U)$うつす写像で定める
 
 * $\delta'_k(f_k(c)) = f_k(\delta_k(c)) = 0$なので、$f_k(c) \in \Ker{\delta'_k}$
+ 
 * $c, c' \in \Ker{\delta_k}$が同じ$H_k(T)$の元を代表しているとする
 * $c - c' \in \Ima{\delta_{k+1}}$なので、$f_k(c) - f_k(c') = f_k(c-c') \in \Ima{\delta'_{k+1}}$によりwell-definedである
 
-### 例(連続写像の引き起こす特異複体の準同型)
+さらに$g : U \to V$がある場合
+
+$$ H_k(g\circ f) = H_k(g)\circ H_k(f) $$
+
+### 定義(連続写像の引き起こす特異複体の準同型)
 
 * 連続写像$f : X \to Y$がある場合
 * $R$準同型$S_k(f) : S_k(X) \to S_k(Y)$を生成元$\sigma \in S_k(X)$に対して$f\circ\sigma$で定めると、特異複体の準同型$S(f) : S(X) \to S(Y)$が得られる
@@ -102,7 +107,7 @@ U_k & \xrightarrow[\delta'_k]{} & U_{k-1}
 $$ \delta_k(S_k(f)\sigma) = \sum_{j=0}^k (-1)^j (S_k(f)\sigma)\circ\varepsilon^j = \sum_{j=0}^k (-1)^j f\circ\sigma\circ\varepsilon^j $$
 $$ S_{k-1}(f)\delta_k(\sigma) = \sum_{j=0}^k (-1)^j S_{k-1}(f)(\sigma\circ\varepsilon^j) = \sum_{j=0}^k (-1)^j f\circ\sigma\circ\varepsilon^j $$
 
-* さらに連続写像$g : Y \to Z$がある場合
+さらに連続写像$g : Y \to Z$がある場合
 
 $$ S(g\circ f) = S(g)\circ S(f) $$
 
