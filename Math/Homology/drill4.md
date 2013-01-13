@@ -85,6 +85,10 @@ f_k\downarrow  & & \downarrow f_{k-1} \\\\
 U_k & \xrightarrow[\delta'_k]{} & U_{k-1}
 \end{array}$$
 
+### 定義(複体の準同型の引き起こす$k$次ホモロジー加群の$R$準同型)
+
+複体の準同型$f : T \to U$にたいして、$k$次ホモロジー加群の$R$準同型$H_k(f) : H_k(T) \to H_k(U)$を$c \in \Ker{\delta_k}$の代表する$H_k(T)$の元$c + \Ima{\delta_{k+1}}$に対して、$f_k(c) + \Ima{\delta'_{k+1}} \in H_k(U)$で定める
+
 ### 例(連続写像の引き起こす特異複体の準同型)
 
 * 連続写像$f : X \to Y$がある場合
