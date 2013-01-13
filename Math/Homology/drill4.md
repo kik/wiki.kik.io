@@ -77,7 +77,7 @@ $
 
 ### 定義(複体の準同型)
 
-複体$T = (T_k, \delta_k)_{k\in\mathbf{Z}}, U = (U_k, \delta'_k)_{k\in\mathbf{Z}}$の加群の間の$R$準同型の列$(f_k : T_k \to U_k)_{k\in\mathbf{Z}}$が複体$T$から複体$U$への準同型であるとは以下が可換であることをいう
+複体$T = (T_k, \delta_k)_{k\in\mathbf{Z}}, U = (U_k, \delta'_k)_{k\in\mathbf{Z}}$の加群の間の$R$準同型の列$f = (f_k : T_k \to U_k)_{k\in\mathbf{Z}}$が複体$T$から複体$U$への準同型であるとは以下が可換であることをいう
 
 $$\begin{array}{ccc}
 T_k & \xrightarrow{\delta_k} & T_{k-1} \\\\
