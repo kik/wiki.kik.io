@@ -35,3 +35,13 @@ $R$準同型$\delta_k : S_k(X) \to S_{k-1}(X)$を生成元$\sigma$の像を以�
 $$ \sigma \mapsto \sum_{j=0}^k (-1)^j \sigma\circ\varepsilon^j $$
 
 ただし、$k \le 0$の場合は$\delta_k = 0$とする。
+
+* $\delta_{k-1}\circ\delta_k = 0$
+
+### 定義(一般の複体)
+
+$R$加群の列$(T_k)_{k\in\mathbf{Z}}$と$R$準同型の列$(\delta_k : T_k \to T_{k-1})_{k\in\mathbf{Z}}$の組が以下を満たすとき(左)複体とよぶ。
+
+$$\delta_{k-1}\circ\delta_k = 0$$
+$$T_k = 0\quad (k < 0)$$
+
